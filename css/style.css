@@ -32,13 +32,14 @@ body
 .button
 {
     margin-bottom:10px;
-    padding-top:0;
+    margin-left:4px;
+    margin-right:4px;
     margin-top:0;
+    padding-top:0;
+    top:0;
     width:620px;
     height:50px;
     transition: 0.3s;
-    margin-left:4px;
-    margin-right:4px;
     float:left;
     text-align: center;
     border-bottom:solid;
@@ -46,7 +47,6 @@ body
     border-width:1px;
     border-radius:1px;
     font-size:20px;
-    top:0;
     background-color: white;
     position:-webkit-sticky;
     position:sticky;
