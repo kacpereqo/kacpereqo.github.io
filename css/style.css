@@ -1,3 +1,9 @@
+html
+{
+    padding:0;
+    margin:0;
+}
+
 body
 {
     font-family: 'Comic Neue',monospace;
@@ -6,31 +12,44 @@ body
 {
     height:720px;
     width:1280px;
+    margin-left:auto;
+    margin-right:auto;
     
 }
 .navigation
 {
+    padding-top:0;
     width:1280px;
-    margin: auto;
-
+    margin-top:0;
+    background-color:white;
+    height:50px;
+    position:-webkit-sticky;
+    position:sticky;
     top: 0;
+    z-index:10;
     
 }
 .button
 {
-    
-    width:610px;
+    padding-top:0;
+    margin-top:0;
+    width:620px;
     height:50px;
     transition: 0.3s;
+    margin-left:4px;
+    margin-right:4px;
     float:left;
-    margin: 10px;
     text-align: center;
     border-bottom:solid;
     border-color: gainsboro;
     border-width:1px;
     border-radius:1px;
     font-size:20px;
+    top:0;
     background-color: white;
+    position:-webkit-sticky;
+    position:sticky;
+
     
 }
 a:link
@@ -89,7 +108,7 @@ a:active
     display: block;
     width: 200%;
     height: auto;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius:5px;
     margin-bottom: 25px;
 }
