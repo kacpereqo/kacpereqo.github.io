@@ -19,7 +19,7 @@ body
                80px 80px magenta;
                animation-iteration-count: infinite;
                animation-name: body;
-               animation-duration: 0.4s;
+               animation-duration: 0.00001s;
     background-image: url('background.jpg');
     position: relative;
     opacity:1;
