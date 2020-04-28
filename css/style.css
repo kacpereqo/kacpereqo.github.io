@@ -6,6 +6,7 @@ html
 
 body
 {
+    cursor:none; 
     font-family: 'Comic Neue',monospace;
     text-shadow:   10px 0px magenta, 0px 10px #ff0000,
                20px 10px magenta, 10px 20px #ff0000,
@@ -59,6 +60,7 @@ body
     background-color: white;
     position:-webkit-sticky;
     position:sticky;
+    cursor:none; 
 
     
 }
