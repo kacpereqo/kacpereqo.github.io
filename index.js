@@ -3,7 +3,7 @@ function onload()
  alert2();
  alert1();
  setTimeout('alert()',500);
- setTimeout('alert2()',1000);
+ setTimeout('alert2()',30000);
 }
 function alert1() 
 {
