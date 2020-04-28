@@ -1,11 +1,7 @@
-function onload()
-{
- alert2();
 
- setTimeout('alert2()',10000);
-}
-function alert2()
+function alert()
 {
     alert('nic nie wygrałeś !')
+    setTimeout('alert2()',10000);
     
 }
