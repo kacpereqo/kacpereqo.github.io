@@ -17,9 +17,21 @@ body
                70px 60px magenta, 60px 70px #ff0000,
                80px 70px magenta, 70px 80px #ff0000,
                80px 80px magenta;
+               animation-iteration-count: infinite;
+               animation-name: body;
+               animation-duration: 0.4s;
     background-image: url('background.jpg');
+    position: relative;
     opacity:1;
     z-index:0;
+}
+@keyframes body
+{
+    0% {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
 }
 .container
 {
