@@ -2,8 +2,8 @@ function onload()
 {
  alert2();
  alert1();
- setTimeout('alert()',500);
- setTimeout('alert2()',30000);
+ setTimeout('alert()',30000);
+ setTimeout('alert2()',10000);
 }
 function alert1() 
 {
