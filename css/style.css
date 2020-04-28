@@ -7,6 +7,15 @@ html
 body
 {
     font-family: 'Comic Neue',monospace;
+    text-shadow:   10px 0px magenta, 0px 10px #ff0000,
+               20px 10px magenta, 10px 20px #ff0000,
+               30px 20px magenta, 20px 30px #ff0000,
+               40px 30px magenta, 30px 40px #ff0000,
+               50px 40px magenta, 40px 50px #ff0000,
+               60px 50px magenta, 50px 60px #ff0000,
+               70px 60px magenta, 60px 70px #ff0000,
+               80px 70px magenta, 70px 80px #ff0000,
+               80px 80px magenta;
 }
 .container
 {
@@ -147,6 +156,7 @@ h3
    width:990px;
    float:left;
 }
+
 .footer
 {
     text-align: center;
