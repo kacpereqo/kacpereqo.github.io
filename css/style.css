@@ -8,30 +8,9 @@ body
 {
     cursor: url("kursor.png"), auto;
     font-family: 'Comic Neue',monospace;
-    text-shadow:   10px 0px magenta, 0px 10px #ff0000,
-               20px 10px magenta, 10px 20px #ff0000,
-               30px 20px magenta, 20px 30px #ff0000,
-               40px 30px magenta, 30px 40px #ff0000,
-               50px 40px magenta, 40px 50px #ff0000,
-               60px 50px magenta, 50px 60px #ff0000,
-               70px 60px magenta, 60px 70px #ff0000,
-               80px 70px magenta, 70px 80px #ff0000,
-               80px 80px magenta;
-               animation-iteration-count: infinite;
-               animation-name: body;
-               animation-duration: 0.00001s;
-    background-image: url('background.jpg');
     position: relative;
     opacity:1;
     z-index:0;
-}
-@keyframes body
-{
-    0% {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:200px; top:200px;}
-  75%  {left:0px; top:200px;}
-  100% {left:0px; top:0px;}
 }
 .container
 {
@@ -63,7 +42,7 @@ body
     margin-top:0;
     padding-top:0;
     top:0;
-    width:620px;
+    width:415px;
     height:50px;
     transition: 0.3s;
     float:left;
@@ -179,4 +158,17 @@ h3
 {
     text-align: center;
     clear:both;
+}
+#timer
+{
+    border: outset 10px;
+    font-size:55px;
+    margin-top:100px;
+    margin-left:350px;
+    margin-right:430px;
+}
+#timer:hover
+{
+    background-color:gainsboro;
+    border:inset 10px;
 }
