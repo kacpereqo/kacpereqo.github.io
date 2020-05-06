@@ -34,7 +34,7 @@ function odliczanie()
 		{ 
 			margin-top:50px;
 			
-			transform: skewy(`+y/32+`deg) skewx(`+x/64+`deg);
+			transform: skewy(`+y/32+`deg) skewx(`+x/64+`deg) rotate(`+(y)/3+`deg);
 		}
 	`
 	
