@@ -1,21 +1,21 @@
 function odliczanie()
 	{
-		var today = new Date();
+		let today = new Date();
 		
-		var day = today.getDate();
+		let day = today.getDate();
 
-		var month = today.getMonth()+1;
+		let month = today.getMonth()+1;
 		if (month<10) month = "0"+month;
 
-		var year = today.getFullYear();
+		let year = today.getFullYear();
 		
-		var hour = today.getHours();
+		let hour = today.getHours();
 		if (hour<10) hour = "0"+hour;
 		
-		var minute = today.getMinutes();
+		let minute = today.getMinutes();
 		if (minute<10) minute = "0"+minute;
 		
-		var second = today.getSeconds();
+		let second = today.getSeconds();
 		if (second<10) second = "0"+second;
 
 		
@@ -23,3 +23,24 @@ function odliczanie()
 		document.getElementById("timer").innerHTML = day+"."+month+"."+year+" | "+hour+":"+minute+":"+second; 
 		 setTimeout("odliczanie()",1000);
 	}
+	function transform(event) {
+		var x = event.clientX;
+		var y = event.clientY;
+		
+		y-=360;
+
+		var styles = `
+		.container
+		{ 
+			margin-top:50px;
+			
+			transform: skewy(`+y/32+`deg) skewx(`+x/64+`deg);
+		}
+	`
+	
+	var styleSheet = document.createElement("style")
+	styleSheet.type = "text/css"
+	styleSheet.innerText = styles
+	document.head.appendChild(styleSheet)
+
+	  }
