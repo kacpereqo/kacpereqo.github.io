@@ -34,11 +34,11 @@ function odliczanie()
 		{ 
 			margin-top:50px;
 			
-			transform: skewy(`+y/32+`deg) skewx(`+x/64+`deg) rotate(`+(y)/3+`deg);
+			transform: skewy(`+y/64+`deg) skewx(`+x/128+`deg) rotate(`+y/5+`deg);
 		}
 	`
 	
-	var styleSheet = document.createElement("style")
+	let styleSheet = document.createElement("style")
 	styleSheet.type = "text/css"
 	styleSheet.innerText = styles
 	document.head.appendChild(styleSheet)

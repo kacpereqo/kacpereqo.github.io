@@ -11,16 +11,22 @@ body
     position: relative;
     opacity:1;
     z-index:0;
+    animation-name: XD2;
+    animation-iteration-count: infinite;
+    animation-duration: 0.01s;
 }
 .container
 {
+
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index:1;
     height:800px;
     width:1280px;
     margin-left:auto;
     margin-right:auto;
-    
+    animation-name: XD;
+    animation-iteration-count: infinite;
+    animation-duration: 0.1s;
 }
 .navigation
 {
@@ -33,6 +39,9 @@ body
     position:sticky;
     top: 0;
     z-index:10;
+    animation-name: XD2;
+    animation-iteration-count: infinite;
+    animation-duration: 0.0001s;
     
 }
 .button
@@ -57,11 +66,15 @@ body
     position:-webkit-sticky;
     position:sticky;
     cursor:none; 
+    animation-name: XD2;
+    animation-iteration-count: infinite;
+    animation-duration: 0.0001s;
 
     
 }
 a:link
 {
+
     text-decoration: none;
     color:black;
 }
@@ -162,11 +175,12 @@ h3
 }
 #timer
 {
+    text-align: center;
     border: outset 10px;
     font-size:55px;
     margin-top:100px;
-    margin-left:px;
-    margin-right:430px;
+    margin-left:100px;
+    margin-right:100px;
 }
 #timer:hover
 {
