@@ -23,24 +23,4 @@ function odliczanie()
 		document.getElementById("timer").innerHTML = day+"."+month+"."+year+" | "+hour+":"+minute+":"+second; 
 		 setTimeout("odliczanie()",1000);
 	}
-	function transform(event) {
-		var x = event.clientX;
-		var y = event.clientY;
-		
-		y-=360;
-
-		var styles = `
-		.container
-		{ 
-			margin-top:50px;
-			
-			transform: skewy(`+y/64+`deg) skewx(`+x/128+`deg) rotate(`+y/5+`deg);
-		}
-	`
 	
-	let styleSheet = document.createElement("style")
-	styleSheet.type = "text/css"
-	styleSheet.innerText = styles
-	document.head.appendChild(styleSheet)
-
-	  }
