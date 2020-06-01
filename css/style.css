@@ -3,30 +3,27 @@ html
     padding:0;
     margin:0;
 }
-
+.content
+{
+    width: 100%;
+    height:100%;
+}
 body
 {
-    cursor: url("kursor.png"), auto;
+    position:relative;
     font-family: 'Comic Neue',monospace;
-    position: relative;
-    opacity:1;
-    z-index:0;
-    animation-name: XD2;
-    animation-iteration-count: infinite;
-    animation-duration: 0.01s;
+    background-color:white;
+    z-index:3;
 }
 .container
 {
 
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index:1;
-    height:800px;
+    z-index:3;
+    height:870px;
     width:1280px;
     margin-left:auto;
     margin-right:auto;
-    animation-name: XD;
-    animation-iteration-count: infinite;
-    animation-duration: 0.1s;
 }
 .navigation
 {
@@ -39,9 +36,6 @@ body
     position:sticky;
     top: 0;
     z-index:10;
-    animation-name: XD2;
-    animation-iteration-count: infinite;
-    animation-duration: 0.0001s;
     
 }
 .button
@@ -52,7 +46,7 @@ body
     margin-top:0;
     padding-top:0;
     top:0;
-    width:415px;
+    width:310px;
     height:50px;
     transition: 0.3s;
     float:left;
@@ -150,7 +144,7 @@ position: relative;
 }
 .right
 {
-    
+    z-index:3;
     width:250px;
     height:1280px;
     float:left;
@@ -186,4 +180,56 @@ h3
 {
     background-color:gainsboro;
     border:inset 10px;
+
+}
+.carousel
+{
+    width: 1280px;
+    height:300px;
+    position: relative;
+    z-index:-10;
+    margin-bottom: 70px;
+    border-bottom: groove 0.5px;
+}
+#frame1,#frame2,#frame3
+{
+    float: left;
+    text-align: center;
+    width:25%;
+    height:120px;
+    margin-top:30px;
+    margin-left:6%;
+    margin-bottom:80px;
+    position: relative;
+    z-index:-10;
+  
+}
+p
+{
+    padding: 10px;
+    margin-right:10px;
+    border-bottom:groove;
+}
+.pesel
+{
+    border-radius: 10px;
+    padding: 10px;
+    height:100px;
+    width: 500px;
+    border: groove;
+    margin: 100px 420px;
+}
+#answer
+{
+    text-align: center;
+    margin-left:100px;
+    text-align: center;
+    float:left;
+}
+#dzien, #miesiac, #rok, #plec
+{
+    
+    font-size: 30px;
+    margin-top:30px;
+    float:left;
 }

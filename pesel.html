@@ -18,7 +18,7 @@
         
     </head>
 
-    <body onload='odliczanie();'>
+    <body>
 
         <div class='container'>
             <div class='navigation'>
@@ -28,7 +28,19 @@
                 <a div class='button' href='timer.html'> zegarek </a div>
                 <a div class='button' href='pesel.html'> Sprawdź swój pesel</a div>
                 </div>
-                <div id='timer' style='margin-left:100px; margin-right:100px; text-align: center;'></div>
-            </div>
+                <div class='pesel'>
+                    
+                    <div id='answer'>
+                        <input type='number' id='pesel' style='border-radius:10px;'>
+                         <input type='submit' onclick='pesel()' value='Sprawdź swój pesel' style='border-radius:10px;'>
+                    </br>
+                        <div id='rok'></div>
+                        <div id='dzien'></div>
+                        <div id='miesiac'></div>
+                        <div id='plec'></div>
+                    </div>
+                </div>
+                </div>
+            
             </body>
             </html>
