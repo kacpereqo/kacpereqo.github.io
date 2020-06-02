@@ -59,10 +59,6 @@ body
     background-color: white;
     position:-webkit-sticky;
     position:sticky;
-    cursor:none; 
-    animation-name: XD2;
-    animation-iteration-count: infinite;
-    animation-duration: 0.0001s;
 
     
 }
