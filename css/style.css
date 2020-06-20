@@ -90,7 +90,7 @@ border-color: #d4c8c0;
 }
 .menu-button:active
 {
-    border-bottom: solid 1px !important;
+    border-bottom: solid 1px;
     text-decoration: none;
     color:#d4c8c0;
 }
