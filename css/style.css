@@ -75,6 +75,11 @@ a:visited
     text-decoration: none;
     color:black;   
 }
+a:link
+{
+    text-decoration: none;
+    color:black;   
+}
 .menu-button:hover
 {
 height: 6vh;
