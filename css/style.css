@@ -43,6 +43,7 @@ body
 {
     0%{transform: rotate3d(0, 1, 0, 0deg);}
     100%{transform: rotate3d(0, 1, 0, 360deg);}
+ 
 }
 .menu-button
 {   
@@ -97,7 +98,7 @@ border-color: #d4c8c0;
 {
     width: 15vw;
     position:fixed;
-    bottom:0;
+    bottom:10px;
 }
 .menu-footer-link
 {
@@ -106,13 +107,13 @@ border-color: #d4c8c0;
     width:5vw;
     float:left
 }
-#yt
+#yt,#gh,#fb
 {
+    transition: .5s;
     color:black;
 }
 #yt:hover
 {
-    transition: .5s;
 color:#fc0300;
 }
 #gh:hover
@@ -137,4 +138,11 @@ color: wheat;
     margin:1vw 4vw;
     padding:1vw;
     width:73vw;
+}
+p
+{
+    letter-spacing: 1px;
+    text-align: justify;
+    border-top:solid;
+    padding:1vw;
 }
