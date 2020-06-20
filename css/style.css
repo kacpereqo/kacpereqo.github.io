@@ -46,16 +46,17 @@ body
 }
 .menu-button
 {   
-
-    transition: 0.2s;
+    min-height: 2.5vw;
+    transition: 0.1s;
     margin-top:1.5vh;
-    top:30vh;
+    top:0vh;
     position:-webkit-sticky;
     font-size:2vw;
     text-align: center;
     width:15vw;
     position:sticky;
-    float:left;
+    float: left;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.4);
 }
 .menu-button:link
 {
@@ -72,7 +73,7 @@ body
 a:visited
 {
     text-decoration: none;
-    color:black;
+    color:black;   
 }
 .menu-button:hover
 {
@@ -83,6 +84,7 @@ border-color: #d4c8c0;
 }
 .menu-button:active
 {
+    border-bottom: solid 1px !important;
     text-decoration: none;
     color:#d4c8c0;
 }
