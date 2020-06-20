@@ -106,6 +106,10 @@ border-color: #d4c8c0;
     width:5vw;
     float:left
 }
+#yt
+{
+    color:black;
+}
 #yt:hover
 {
     transition: .5s;
