@@ -48,7 +48,7 @@ body
 .menu-button
 {   
     min-height: 2.5vw;
-    transition: 0.1s;
+    transition: .1s;
     margin-top:1.5vh;
     top:0vh;
     position:-webkit-sticky;
@@ -84,6 +84,7 @@ a:link
 }
 .menu-button:hover
 {
+letter-spacing:0;
 height: 6vh;
 border-bottom:solid 3px;
 color:gainsboro;
