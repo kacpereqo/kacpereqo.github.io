@@ -25,6 +25,7 @@ body
 }
 #logo
 {
+ border-radius:1vw;
  top:1vw;
  position:-webkit-sticky;
  position:sticky;
