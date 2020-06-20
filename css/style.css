@@ -82,25 +82,11 @@ a:link
 }
 .menu-button:hover
 {
-
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 letter-spacing:0;
 height: 6vh;
 border-bottom:solid 3px;
 color:gainsboro;
 border-color: #d4c8c0;
-animation-name:rainbow;
-animation-iteration-count: infinite;
-animation-duration: 1s;
-}
-@keyframes rainbow
-{
-    0%{background: linear-gradient(to right, red 20%,yellow 40%,green 60%,blue 80%,purple 100%);-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
-    25%{background: linear-gradient(to right, yellow 20%,green 40%,blue 60%,purple 80%,red 100%);-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
-    50%{background: linear-gradient(to right, green 20%,blue 40%,purple 60%,red 80%,yellow 100%);-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
-    75%{background: linear-gradient(to right, blue 20%,purple 40%,red 60%,yellow 80%,green 100%);-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
-    100%{background: linear-gradient(to right, purple 20%,red 40%,yellow 60%,green 80%,blue 100%);-webkit-text-fill-color: transparent;-webkit-background-clip: text;}
 }
 .menu-button:active
 {
