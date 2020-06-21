@@ -51,12 +51,12 @@ body
     top:0vh;
     position:-webkit-sticky;
     font-size:2vw;
-    text-align: center;
+    text-align: justify;
     width:15vw;
     position:sticky;
     float: left;
     letter-spacing: 1px;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.4);
+    text-shadow: 3px 3px 3px #222;
 }
 .menu-button:link
 {
@@ -82,9 +82,9 @@ a:link
 }
 .menu-button:hover
 {
-letter-spacing:0;
+letter-spacing:1.5px;
 height: 6vh;
-border-bottom:solid 3px;
+border-bottom:solid 3px !important;
 color:gainsboro;
 border-color: #d4c8c0;
 }
