@@ -5,6 +5,6 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule wegiel-studio index.html
+RewriteRule wegielstudio index.html
 RewriteRule onas onas.html
-RewriteRule kontakt-wegiel-studio kontakt.html
+RewriteRule kontaktwegieltudio kontakt.html
