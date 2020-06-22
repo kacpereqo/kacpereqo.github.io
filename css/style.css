@@ -156,3 +156,12 @@ p
  font-family: 'Balsamiq Sans', cursive;
 
 }
+h1
+{
+    background-color: inherit;
+    width:100%;
+    display: inline-block;
+    z-index: 100;
+    position: sticky;
+    top:0;
+}
